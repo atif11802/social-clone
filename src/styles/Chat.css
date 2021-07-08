@@ -1,0 +1,41 @@
+.chat_field{
+    max-width: 400px;
+    overflow-wrap: inherit;
+    height: 200px;
+
+  background-color: powderblue;
+  overflow-y:scroll;
+    overflow-x:hidden;
+  scroll-behavior: smooth;
+}
+.chat{
+    position: fixed;
+    max-width: 300px;
+}
+
+.chat-receive{
+    padding: 10px;
+}
+
+.chat__sent{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.chat__form{
+    display: flex;
+}
+.chat__form>button{
+    width: 50px;
+   margin: 2px;
+}
+.chat__input{
+    width: 220px;
+    height: 40px;
+    margin-right: 10px;
+}
+.chat{
+    height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
